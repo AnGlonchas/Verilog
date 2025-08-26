@@ -1,0 +1,37 @@
+# Compile of logic_gates.v was successful.
+# Compile of halfadder_tb.v failed with 2 errors.
+# Compile of halfadder.v was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of halfadder_tb.v failed with 4 errors.
+# Compile of halfadder_tb.v was successful.
+vsim work.halfadder work.halfadder_tb
+# vsim work.halfadder work.halfadder_tb 
+# Start time: 21:54:07 on Aug 25,2025
+# Loading work.halfadder
+# Loading work.halfadder_tb
+add wave -position end  sim:/halfadder/bit1
+add wave -position end  sim:/halfadder/bit2
+add wave -position end  sim:/halfadder/sum
+add wave -position end  sim:/halfadder/extra
+run -all
+# ** Note: $stop    : C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder_tb.v(32)
+#    Time: 400 ns  Iteration: 0  Instance: /halfadder_tb
+# Break in Module halfadder_tb at C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder_tb.v line 32
+run
+force bit1_tb 0
+run
+force bit1_tb 1
+run
+vsim work.halfadder_tb
+# End time: 21:55:48 on Aug 25,2025, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 5
+# vsim work.halfadder_tb 
+# Start time: 21:55:48 on Aug 25,2025
+# Loading work.halfadder_tb
+# Loading work.halfadder
+run
+add wave -position end  sim:/halfadder_tb/bit1_tb
+add wave -position end  sim:/halfadder_tb/bit2_tb
+add wave -position end  sim:/halfadder_tb/sum_tb
+add wave -position end  sim:/halfadder_tb/extra_tb
+run

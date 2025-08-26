@@ -1,3 +1,4 @@
+
 module logic_gates(input bit1, bit2, output _and, _nand, _or, _nor, _not, _xor, _xnor);
     assign _and = bit1 & bit2;
     assign _nand = !(bit1 & bit2);

@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,72 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
+vhalfadder
+Z0 !s110 1756180363
+!i10b 1
+!s100 U^5T;m0j3KSW;cU_ikh@f1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IY9[RhOSCnT`S82UPbJKnI2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/JJose/Downloads/Programming/Modelsim/act1
+w1756180140
+8C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
+FC:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
+!i122 2
+L0 3 6
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1756180363.000000
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vhalfadder_tb
+!s110 1756180429
+!i10b 1
+!s100 lZUG`=PP5ODUo6mCZ^2g^0
+R1
+I8AM;zLli][l<<J0c4NFnV0
+R2
+R3
+w1756180413
+8C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v
+FC:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v
+!i122 3
+L0 3 33
+R4
+r1
+!s85 0
+31
+!s108 1756180429.000000
+!s107 C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
+!i113 1
+R6
+R7
+vlogic_gates
+R0
+!i10b 1
+!s100 78VOTofQUH3kR1@`nJbF]0
+R1
+IFLDW8VhP?fo9S:SR7f_Fm0
+R2
+R3
+w1756180025
+8C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
+FC:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
+!i122 1
+L0 2 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
+!i113 1
+R6
+R7
