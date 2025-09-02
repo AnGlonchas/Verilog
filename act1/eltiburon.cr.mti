@@ -1,1 +1,22 @@
+C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder_tb.v {1 {vlog -work work -stats=none {C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder_tb
 
+Top level modules:
+	halfadder_tb
+
+} {} {}} C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v {1 {vlog -work work -stats=none C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logic_gates
+
+Top level modules:
+	logic_gates
+
+} {} {}} C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v {1 {vlog -work work -stats=none C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfadder
+
+Top level modules:
+	halfadder
+
+} {} {}}

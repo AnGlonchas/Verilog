@@ -9,29 +9,53 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
-vhalfadder
-Z0 !s110 1756180363
+vALU
+Z0 !s110 1756779131
 !i10b 1
-!s100 U^5T;m0j3KSW;cU_ikh@f1
+!s100 YgH:zkf;:FQ<oLKJ1adRI0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IY9[RhOSCnT`S82UPbJKnI2
+IL3V66LO^m2>gif2MYfQ[@2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/JJose/Downloads/Programming/Modelsim/act1
+Z4 w1756779126
+Z5 8C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
+Z6 FC:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
+!i122 13
+L0 3 25
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1756779131.000000
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@a@l@u
+vhalfadder
+Z12 !s110 1756180363
+!i10b 1
+!s100 U^5T;m0j3KSW;cU_ikh@f1
+R1
+IY9[RhOSCnT`S82UPbJKnI2
+R2
+R3
 w1756180140
 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
 !i122 2
 L0 3 6
-Z4 OV;L;2020.1;71
+R7
 r1
 !s85 0
 31
-Z5 !s108 1756180363.000000
+Z13 !s108 1756180363.000000
 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+R10
+R11
 vhalfadder_tb
 !s110 1756180429
 !i10b 1
@@ -45,7 +69,7 @@ w1756180413
 FC:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v
 !i122 3
 L0 3 33
-R4
+R7
 r1
 !s85 0
 31
@@ -53,10 +77,10 @@ r1
 !s107 C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !i113 1
-R6
-R7
+R10
+R11
 vlogic_gates
-R0
+R12
 !i10b 1
 !s100 78VOTofQUH3kR1@`nJbF]0
 R1
@@ -68,13 +92,36 @@ w1756180025
 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
 !i122 1
 L0 2 10
-R4
+R7
 r1
 !s85 0
 31
-R5
+R13
 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !i113 1
+R10
+R11
+vtestbench
+R0
+!i10b 1
+!s100 BzRc4:X<jAXzC>D7U<iTY0
+R1
+I<KmGJe:f:i]:;o4>NfQ:c0
+R2
+R3
+R4
+R5
 R6
+!i122 13
+L0 31 27
 R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+R9
+!i113 1
+R10
+R11

@@ -1,37 +1,171 @@
-# Compile of logic_gates.v was successful.
-# Compile of halfadder_tb.v failed with 2 errors.
-# Compile of halfadder.v was successful.
-# 3 compiles, 1 failed with 2 errors.
-# Compile of halfadder_tb.v failed with 4 errors.
-# Compile of halfadder_tb.v was successful.
-vsim work.halfadder work.halfadder_tb
-# vsim work.halfadder work.halfadder_tb 
-# Start time: 21:54:07 on Aug 25,2025
-# Loading work.halfadder
-# Loading work.halfadder_tb
-add wave -position end  sim:/halfadder/bit1
-add wave -position end  sim:/halfadder/bit2
-add wave -position end  sim:/halfadder/sum
-add wave -position end  sim:/halfadder/extra
-run -all
-# ** Note: $stop    : C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder_tb.v(32)
-#    Time: 400 ns  Iteration: 0  Instance: /halfadder_tb
-# Break in Module halfadder_tb at C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder_tb.v line 32
+# Compile of alu.v failed with 4 errors.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu.v failed with 1 errors.
+# Compile of alu.v failed with 1 errors.
+# Error opening C:/Users/JJose/Downloads/Programming/Modelsim/act1/(vlog-13069) C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
+# Path name 'C:/Users/JJose/Downloads/Programming/Modelsim/act1/(vlog-13069) C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v' doesn't exist.
+# Compile of alu.v failed with 8 errors.
+# Compile of alu.v failed with 8 errors.
+# Compile of alu.v failed with 8 errors.
+# Compile of alu.v failed with 6 errors.
+# Compile of alu.v failed with 6 errors.
+# Compile of alu.v was successful.
+# Compile of alu.v was successful.
+vsim work.ALU
+# vsim work.ALU 
+# Start time: 15:34:26 on Sep 01,2025
+# Loading work.ALU
 run
-force bit1_tb 0
+add wave -position end  sim:/ALU/iNibble1
+add wave -position end  sim:/ALU/iNibble2
+add wave -position end  sim:/ALU/selector
+add wave -position end  sim:/ALU/result
+# Compile of alu.v was successful.
+vsim work.ALU
+# End time: 15:37:07 on Sep 01,2025, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 14
+# vsim work.ALU 
+# Start time: 15:37:07 on Sep 01,2025
+# Loading work.ALU
+add wave -position end  sim:/ALU/selector
+add wave -position end  sim:/ALU/iNibble2
+add wave -position end  sim:/ALU/iNibble1
+add wave -position end  sim:/ALU/result
+force -freeze sim:/ALU/iNibble1 10 0
 run
-force bit1_tb 1
+force iNibble2 10
 run
-vsim work.halfadder_tb
-# End time: 21:55:48 on Aug 25,2025, Elapsed time: 0:01:41
-# Errors: 0, Warnings: 5
-# vsim work.halfadder_tb 
-# Start time: 21:55:48 on Aug 25,2025
-# Loading work.halfadder_tb
-# Loading work.halfadder
+force selector 0
 run
-add wave -position end  sim:/halfadder_tb/bit1_tb
-add wave -position end  sim:/halfadder_tb/bit2_tb
-add wave -position end  sim:/halfadder_tb/sum_tb
-add wave -position end  sim:/halfadder_tb/extra_tb
+# Break key hit
+run
+force inibble 4'10x
+# ** UI-Msg (suppressible): (vsim-4008) Object 'inibble' not found.
+# 
+force iNibble 4'10x
+# ** UI-Msg (suppressible): (vsim-4008) Object 'iNibble' not found.
+# 
+force iNibble1 4'10x
+# Invalid radix for based number: 1.
+# ** UI-Msg: (vsim-4011) Invalid force value: 4'10x.
+# 
+force iNibble1 4'b10
+force iNibble2 4'b10
+force iNibble2 4'x10
+# Invalid radix for based number: x.
+# ** UI-Msg: (vsim-4011) Invalid force value: 4'x10.
+# 
+force iNibble2 4'd10
+force iNibble1 4'd10
+run
+force selector 0
+run
+# Compile of alu.v failed with 1 errors.
+# Compile of alu.v was successful.
+run
+run
+# Compile of alu.v was successful.
+run
+vsim work.ALU
+# End time: 20:02:54 on Sep 01,2025, Elapsed time: 4:25:47
+# Errors: 0, Warnings: 4
+# vsim work.ALU 
+# Start time: 20:02:54 on Sep 01,2025
+# Loading work.ALU
+add wave -position end  sim:/ALU/iNibble1
+add wave -position end  sim:/ALU/iNibble2
+add wave -position end  sim:/ALU/selector
+add wave -position end  sim:/ALU/result
+run
+# Compile of alu.v was successful.
+vsim work.testbench
+# End time: 20:04:41 on Sep 01,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 2
+# vsim work.testbench 
+# Start time: 20:04:41 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 30
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 30
+# Error loading design
+# End time: 20:04:42 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of alu.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:05:34 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:05:35 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of alu.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:07:51 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:07:52 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:08:39 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:08:40 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:09:22 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:09:23 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:10:03 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:10:04 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:11:46 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'result'.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/unit File: C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v Line: 31
+# Error loading design
+# End time: 20:11:47 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of alu.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 20:12:13 on Sep 01,2025
+# Loading work.testbench
+# Loading work.ALU
+add wave -position end  sim:/testbench/Input1
+add wave -position end  sim:/testbench/Input2
+add wave -position end  sim:/testbench/Output
+add wave -position end  sim:/testbench/Selector
+add wave -position end  sim:/testbench/Result
+run
+run
+run
 run

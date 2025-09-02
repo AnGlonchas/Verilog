@@ -1,0 +1,23 @@
+`timescale 1ns/1ns
+
+module ALU(input [3:0] iNibble1, [3:0] iNibble2, selector, output [3:0] oNibble);
+    
+
+    reg result[3:0];
+
+    always @* begin
+        case(selector)
+            0'b0:
+                begin 
+                    result = iNibble1 + iNibble2;
+                end
+            1'b0: 
+                begin 
+                    result = iNibble1 & iNibble2;
+                end
+	endcase		
+    end
+	
+    assign onibble = result;
+
+endmodule
