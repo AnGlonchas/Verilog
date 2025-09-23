@@ -1,4 +1,4 @@
-´timescale 1ns/1ns
+`timescale 1ns/1ns
 
 module rom(input [7:0] direccion, output reg [7:0] dato);
 
@@ -83,8 +83,48 @@ module ram(input [7:0] direccion, input [7:0] dato_in, input enable, output reg 
 
 endmodule
 
-module rom_tb();
+module memorias_tb();
+    reg clk;
+    reg [7:0] direccion;
+    reg [7:0] dato_in;
+    reg enable;
 
-    
+    wire [7:0] dato_rom;
+    wire [7:0] dato_srom;
+    wire [7:0] dato_ram;
 
+    // Instancias de los módulos
+    rom u_rom(.direccion(direccion), .dato(dato_rom));
+    srom u_srom(.clk(clk), .direccion(direccion), .dato(dato_srom));
+    ram u_ram(.direccion(direccion), .dato_in(dato_in), .enable(enable), .dato(dato_ram));
+
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
+
+    initial begin
+        // ROM
+        direccion = 8'd0; enable = 0; #10;
+        direccion = 8'd1; #10;
+        direccion = 8'd2; #10;
+
+        // SROM
+        direccion = 8'd3; #10;
+        direccion = 8'd4; #10;
+
+        // RAM
+        direccion = 8'd5; dato_in = 8'd99; enable = 1; #10;
+        enable = 0; #10;
+
+        direccion = 8'd6; dato_in = 8'd77; enable = 1; #10;
+        enable = 0; #10;
+
+        direccion = 8'd7; dato_in = 8'd55; enable = 1; #10;
+        enable = 0; #10;
+
+        $finish;
+        //Que se vaya al tilín José Preciado 
+        // Ese we
+    end
 endmodule
