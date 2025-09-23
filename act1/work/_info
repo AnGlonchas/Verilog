@@ -27,35 +27,129 @@ r1
 !s85 0
 31
 Z8 !s108 1756779131.000000
-!s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+Z9 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
 !i113 1
-Z10 o-work work
-Z11 tCvgOpt 0
+Z11 o-work work
+Z12 tCvgOpt 0
 n@a@l@u
-vhalfadder
-Z12 !s110 1756180363
+vBankTB
+Z13 !s110 1758609536
 !i10b 1
-!s100 U^5T;m0j3KSW;cU_ikh@f1
+!s100 ]bHKD:K@]Rah]NS@gbVQ53
 R1
-IY9[RhOSCnT`S82UPbJKnI2
+IXh`T5e[=KoK:`MNBRVnD;1
 R2
 R3
-w1756180140
-8C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
-FC:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v
-!i122 2
-L0 3 6
+Z14 w1758609522
+Z15 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
+Z16 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
+!i122 35
+L0 33 56
 R7
 r1
 !s85 0
 31
-Z13 !s108 1756180363.000000
-!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/halfadder.v|
+Z17 !s108 1758609536.000000
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
 !i113 1
-R10
 R11
+R12
+n@bank@t@b
+vextendedALU
+Z19 !s110 1757467025
+!i10b 1
+!s100 j6FEgmS3?FX<GGSeK5R]?3
+R1
+IkXNccKMJVEGl]9EL;mcAV0
+R2
+R3
+Z20 w1757467017
+Z21 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
+Z22 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
+!i122 23
+L0 70 52
+R7
+r1
+!s85 0
+31
+Z23 !s108 1757467025.000000
+Z24 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
+!i113 1
+R11
+R12
+nextended@a@l@u
+vfulladder
+R19
+!i10b 1
+!s100 H?<ZXlziTGnAR7`c3iD?21
+R1
+ISO4C_T8OfC@R7zAKTiT]?0
+R2
+R3
+R20
+R21
+R22
+!i122 23
+L0 13 19
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+vfulladder4bits
+R19
+!i10b 1
+!s100 cU73j?D=e7Xe4zP:`gJGg2
+R1
+IVQG329TI`:bW[UP?]QH3@3
+R2
+R3
+R20
+R21
+R22
+!i122 23
+L0 33 35
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+vhalfadder
+R19
+!i10b 1
+!s100 `O3g0DKOTCLTAHd74EQ`;3
+R1
+IhMKcDV8jGTBM_7a5CE:QK2
+R2
+R3
+R20
+R21
+R22
+!i122 23
+L0 6 6
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
 vhalfadder_tb
 !s110 1756180429
 !i10b 1
@@ -77,10 +171,10 @@ r1
 !s107 C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !i113 1
-R10
 R11
-vlogic_gates
 R12
+vlogic_gates
+!s110 1757461202
 !i10b 1
 !s100 78VOTofQUH3kR1@`nJbF]0
 R1
@@ -90,18 +184,42 @@ R3
 w1756180025
 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
-!i122 1
+!i122 19
 L0 2 10
 R7
 r1
 !s85 0
 31
-R13
+!s108 1757461202.000000
 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !i113 1
-R10
 R11
+R12
+vRegisterBank
+R13
+!i10b 1
+!s100 4Hg4jbI3JUIKJW>aig`U<3
+R1
+I=g`5BJkWGz]oWI5_8S@G23
+R2
+R3
+R14
+R15
+R16
+!i122 35
+L0 3 29
+R7
+r1
+!s85 0
+31
+R17
+Z26 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
+R18
+!i113 1
+R11
+R12
+n@register@bank
 vtestbench
 R0
 !i10b 1
@@ -120,8 +238,32 @@ r1
 !s85 0
 31
 R8
-Z14 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
+vtestbenchFullALU
+R19
+!i10b 1
+!s100 <EE0Mo?=X43@HhK9JzRgb2
+R1
+INbWWjTCinK<F`C^Q8ZOf80
+R2
+R3
+R20
+R21
+R22
+!i122 23
+L0 125 28
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+ntestbench@full@a@l@u
