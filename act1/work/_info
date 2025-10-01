@@ -10,146 +10,193 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vALU
-Z0 !s110 1756779131
+Z0 !s110 1759196277
 !i10b 1
-!s100 YgH:zkf;:FQ<oLKJ1adRI0
+!s100 ldBl>;XQ6>LF7i;SNkg`n1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IL3V66LO^m2>gif2MYfQ[@2
+I;MBn7T^l0X[fT21FQ^GcF0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/JJose/Downloads/Programming/Modelsim/act1
-Z4 w1756779126
-Z5 8C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
-Z6 FC:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
-!i122 13
-L0 3 25
+Z4 w1759195967
+Z5 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v
+Z6 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v
+!i122 39
+L0 39 19
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1756779131.000000
-Z9 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+Z8 !s108 1759196277.000000
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v|
 !i113 1
-Z11 o-work work
-Z12 tCvgOpt 0
+Z10 o-work work
+Z11 tCvgOpt 0
 n@a@l@u
 vBankTB
-Z13 !s110 1758609536
+Z12 !s110 1758609536
 !i10b 1
 !s100 ]bHKD:K@]Rah]NS@gbVQ53
 R1
 IXh`T5e[=KoK:`MNBRVnD;1
 R2
 R3
-Z14 w1758609522
-Z15 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
-Z16 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
+Z13 w1758609522
+Z14 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
+Z15 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
 !i122 35
 L0 33 56
 R7
 r1
 !s85 0
 31
-Z17 !s108 1758609536.000000
-!s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
+Z16 !s108 1758609536.000000
+Z17 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
 Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
 !i113 1
+R10
 R11
-R12
 n@bank@t@b
+vburrito
+R0
+!i10b 1
+!s100 7`O]7O^YQ[Q`<8Ag[agV22
+R1
+I^9e7b>:bH?<PHR9kkzE>P2
+R2
+R3
+R4
+R5
+R6
+!i122 39
+L0 59 33
+R7
+r1
+!s85 0
+31
+R8
+Z19 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v|
+R9
+!i113 1
+R10
+R11
+vburritoTB
+R0
+!i10b 1
+!s100 YZ6@YnPi=ZRG;iU_2lCK[0
+R1
+IaY?14S@W]F5m3VfjYHL`63
+R2
+R3
+R4
+R5
+R6
+!i122 39
+L0 93 66
+R7
+r1
+!s85 0
+31
+R8
+R19
+R9
+!i113 1
+R10
+R11
+nburrito@t@b
 vextendedALU
-Z19 !s110 1757467025
+Z20 !s110 1757467025
 !i10b 1
 !s100 j6FEgmS3?FX<GGSeK5R]?3
 R1
 IkXNccKMJVEGl]9EL;mcAV0
 R2
 R3
-Z20 w1757467017
-Z21 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
-Z22 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
+Z21 w1757467017
+Z22 8C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
+Z23 FC:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v
 !i122 23
 L0 70 52
 R7
 r1
 !s85 0
 31
-Z23 !s108 1757467025.000000
-Z24 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
-Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
+Z24 !s108 1757467025.000000
+Z25 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/extended_alu.v|
 !i113 1
+R10
 R11
-R12
 nextended@a@l@u
 vfulladder
-R19
+R20
 !i10b 1
 !s100 H?<ZXlziTGnAR7`c3iD?21
 R1
 ISO4C_T8OfC@R7zAKTiT]?0
 R2
 R3
-R20
 R21
 R22
+R23
 !i122 23
 L0 13 19
 R7
 r1
 !s85 0
 31
-R23
 R24
 R25
+R26
 !i113 1
+R10
 R11
-R12
 vfulladder4bits
-R19
+R20
 !i10b 1
 !s100 cU73j?D=e7Xe4zP:`gJGg2
 R1
 IVQG329TI`:bW[UP?]QH3@3
 R2
 R3
-R20
 R21
 R22
+R23
 !i122 23
 L0 33 35
 R7
 r1
 !s85 0
 31
-R23
 R24
 R25
+R26
 !i113 1
+R10
 R11
-R12
 vhalfadder
-R19
+R20
 !i10b 1
 !s100 `O3g0DKOTCLTAHd74EQ`;3
 R1
 IhMKcDV8jGTBM_7a5CE:QK2
 R2
 R3
-R20
 R21
 R22
+R23
 !i122 23
 L0 6 6
 R7
 r1
 !s85 0
 31
-R23
 R24
 R25
+R26
 !i113 1
+R10
 R11
-R12
 vhalfadder_tb
 !s110 1756180429
 !i10b 1
@@ -171,8 +218,8 @@ r1
 !s107 C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\JJose\Downloads\Programming\Modelsim\act1\halfadder_tb.v|
 !i113 1
+R10
 R11
-R12
 vlogic_gates
 !s110 1757461202
 !i10b 1
@@ -194,76 +241,100 @@ r1
 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v|
 !i113 1
+R10
 R11
-R12
 vRegisterBank
-R13
+R12
 !i10b 1
 !s100 4Hg4jbI3JUIKJW>aig`U<3
 R1
 I=g`5BJkWGz]oWI5_8S@G23
 R2
 R3
+R13
 R14
 R15
-R16
 !i122 35
 L0 3 29
 R7
 r1
 !s85 0
 31
+R16
 R17
-Z26 !s107 C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v|
 R18
 !i113 1
+R10
 R11
-R12
 n@register@bank
-vtestbench
+vregisterBank
 R0
+!i10b 1
+!s100 :3mWS?FJ5JO_@15HI^o`n2
+R1
+IQlH6jP>>IElQ`OZ][QlYK1
+R2
+R3
+R4
+R5
+R6
+!i122 39
+L0 3 35
+R7
+r1
+!s85 0
+31
+R8
+R19
+R9
+!i113 1
+R10
+R11
+nregister@bank
+vtestbench
+!s110 1756779131
 !i10b 1
 !s100 BzRc4:X<jAXzC>D7U<iTY0
 R1
 I<KmGJe:f:i]:;o4>NfQ:c0
 R2
 R3
-R4
-R5
-R6
+w1756779126
+8C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
+FC:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v
 !i122 13
 L0 31 27
 R7
 r1
 !s85 0
 31
-R8
-R9
-R10
+!s108 1756779131.000000
+!s107 C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/JJose/Downloads/Programming/Modelsim/partALU/alu.v|
 !i113 1
+R10
 R11
-R12
 vtestbenchFullALU
-R19
+R20
 !i10b 1
 !s100 <EE0Mo?=X43@HhK9JzRgb2
 R1
 INbWWjTCinK<F`C^Q8ZOf80
 R2
 R3
-R20
 R21
 R22
+R23
 !i122 23
 L0 125 28
 R7
 r1
 !s85 0
 31
-R23
 R24
 R25
+R26
 !i113 1
+R10
 R11
-R12
 ntestbench@full@a@l@u

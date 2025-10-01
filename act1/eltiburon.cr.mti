@@ -5,6 +5,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	halfadder_tb
 
+} {} {}} C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v {2 {vlog -work work -stats=none C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterBank
+** Warning: C:/Users/JJose/Downloads/Programming/Modelsim/act1/registerBank.v(22): (vlog-2182) 'Bank' might be read before written in always_comb or always @* block.
+-- Compiling module BankTB
+
+Top level modules:
+	BankTB
+
 } {} {}} C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v {1 {vlog -work work -stats=none C:/Users/JJose/Downloads/Programming/Modelsim/act1/logic_gates.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module logic_gates
@@ -18,5 +27,16 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	halfadder
+
+} {} {}} C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v {2 {vlog -work work -stats=none C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerBank
+** Warning: C:/Users/JJose/Downloads/Programming/Modelsim/act1/burrito.v(26): (vlog-2182) 'Bank' might be read before written in always_comb or always @* block.
+-- Compiling module ALU
+-- Compiling module burrito
+-- Compiling module burritoTB
+
+Top level modules:
+	burritoTB
 
 } {} {}}
