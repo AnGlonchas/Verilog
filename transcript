@@ -1,0 +1,24 @@
+# Loading project Arqui
+# Compile of quesadilla.v failed with 1 errors.
+# Compile of quesadilla.v was successful.
+vsim work.quesadilla
+# vsim work.quesadilla 
+# Start time: 11:52:10 on Oct 20,2025
+# Loading work.quesadilla
+# Loading work.programCounter
+# Loading work.memInstr
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'counterIn'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/pc File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'counterOut'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/pc File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dirIn'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(26).
+#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/memory File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 55
+force -freeze sim:/quesadilla/clk 1 0, 0 {50 ns} -r 100
+run
+# ** Warning: (vsim-7) Failed to open readmem file "data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(33)
+#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/memory
+run
+run
+run
+run
