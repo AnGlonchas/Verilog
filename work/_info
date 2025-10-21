@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 d/home/anglonchas/Programming/Verilog
 vadder
-Z1 !s110 1760982722
+Z1 !s110 1761015999
 !i10b 1
-!s100 i=8Q==W35=kTDQ9SF`Wa>2
+!s100 nVaRh72K7SDZ0jVYYjgW_2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Ig_?eSg>OWULY_bO1Vg0YI2
+IB=@8ik6b@@QzIHR;fVIB@2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1760982716
+Z4 w1761015992
 Z5 8/home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v
 Z6 F/home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v
-!i122 1
-L0 15 9
+!i122 24
+L0 19 9
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1760982722.000000
+Z8 !s108 1761015999.000000
 !s107 /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v|
 !i113 1
@@ -35,16 +35,16 @@ Z11 tCvgOpt 0
 vmemInstr
 R1
 !i10b 1
-!s100 iJ7_jV;No[Oc^k1S6O3PH0
+!s100 XLa7nF_BMm7Y<9?EV`3>h3
 R2
-IBiHeIL8eRh29]0GdX>3Qd0
+I<YN6VD@YGbT7jagM=mVj62
 R3
 R0
 R4
 R5
 R6
-!i122 1
-L0 25 16
+!i122 24
+L0 29 16
 R7
 r1
 !s85 0
@@ -59,16 +59,16 @@ nmem@instr
 vprogramCounter
 R1
 !i10b 1
-!s100 6YT5ZUPElVgWhSkeJ=S1h0
+!s100 cG=C=diV`]DBS8ge3gGA`3
 R2
-IkFEIkFegDRC>ed<LCY8T<1
+Ib47df9ORnkYRAgkG610KD2
 R3
 R0
 R4
 R5
 R6
-!i122 1
-L0 3 11
+!i122 24
+L0 3 15
 R7
 r1
 !s85 0
@@ -83,16 +83,16 @@ nprogram@counter
 vquesadilla
 R1
 !i10b 1
-!s100 ^4WHPA7DW5<jU1;<of;iR3
+!s100 6J<Rn4_QWe?=M]4J_]kb?1
 R2
-IGdV>:;Li31Af9`J1g=gYW3
+I]B>;EXDQG_k0^0L<HDemE2
 R3
 R0
 R4
 R5
 R6
-!i122 1
-L0 43 18
+!i122 24
+L0 47 30
 R7
 r1
 !s85 0

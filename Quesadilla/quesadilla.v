@@ -6,6 +6,10 @@ module programCounter(
         output reg [31:0] counterOut
     );
 
+    initial begin 
+        counterOut = 32'b0;
+    end
+
     always @(clk) begin
         counterOut = counterIn + 4;
     end
@@ -27,10 +31,10 @@ module memInstr(
         output reg [31:0] valueOut
     );
     
-    reg [31:0] Bank [0:255];
+    reg[31:0] Bank[0:255];
 
     initial begin
-        $readmemb("data.txt", Bank);
+        $readmemb("Quesadilla/data.txt", Bank);
     end
 
     always @(dirIn) begin
@@ -44,16 +48,28 @@ module quesadilla(
         output [31:0] valueOut
     );
     
-    wire clk, wCounter, wPcout, wSum;
+    reg clk;
+
+    initial clk = 1'b0;
+
+    always #50 clk = ~clk;
+
+    wire [31:0] wPcIn, wPcOut;
 
     programCounter pc(
         .clk(clk),
-        .counterIn(wCounter),
-        .counterOut(wPcout)
+        .counterIn(wPcIn),
+        .counterOut(wPcOut)
+    );
+
+    adder add(
+        .op1(4),
+        .op2(wPcOut),
+        .res(wPcIn)
     );
 
     memInstr memory(
-        .dirIn(wPcout),
+        .dirIn(wPcOut),
         .valueOut(valueOut)
     );
 

@@ -1,0 +1,11 @@
+/home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+-- Compiling module adder
+-- Compiling module memInstr
+-- Compiling module quesadilla
+
+Top level modules:
+	quesadilla
+
+} {} {}}

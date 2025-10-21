@@ -1,19 +1,22 @@
 # Loading project Arqui
-# Compile of quesadilla.v failed with 1 errors.
+# Compile of quesadilla.v failed with 2 errors.
 # Compile of quesadilla.v was successful.
 vsim work.quesadilla
 # vsim work.quesadilla 
-# Start time: 11:52:10 on Oct 20,2025
+# Start time: 20:58:37 on Oct 20,2025
 # Loading work.quesadilla
 # Loading work.programCounter
+# Loading work.adder
 # Loading work.memInstr
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'counterIn'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/pc File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 49
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'counterOut'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/pc File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 49
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dirIn'. The port definition is at: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(26).
-#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/memory File: /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v Line: 55
-force -freeze sim:/quesadilla/clk 1 0, 0 {50 ns} -r 100
+vsim work.quesadilla
+# End time: 20:58:43 on Oct 20,2025, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 3
+# vsim work.quesadilla 
+# Start time: 20:58:43 on Oct 20,2025
+# Loading work.quesadilla
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.memInstr
 run
 # ** Warning: (vsim-7) Failed to open readmem file "data.txt" in read mode.
 # No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(33)
@@ -22,3 +25,40 @@ run
 run
 run
 run
+# Compile of quesadilla.v failed with 1 errors.
+# Compile of quesadilla.v was successful.
+vsim
+# End time: 21:02:26 on Oct 20,2025, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 4
+# vsim work.quesadilla 
+# Start time: 21:02:26 on Oct 20,2025
+# Loading work.quesadilla
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.memInstr
+run
+# ** Warning: (vsim-7) Failed to open readmem file "data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/Verilog/Quesadilla/quesadilla.v(37)
+#    Time: 0 ns  Iteration: 0  Instance: /quesadilla/memory
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of quesadilla.v was successful.
+vsim work.quesadilla
+# End time: 21:06:47 on Oct 20,2025, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 3
+# vsim work.quesadilla 
+# Start time: 21:06:47 on Oct 20,2025
+# Loading work.quesadilla
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.memInstr
+run
+run
+# End time: 21:07:35 on Oct 20,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
