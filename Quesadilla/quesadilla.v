@@ -1,5 +1,65 @@
 `timescale 1ns/1ns
 
+module shiftLeft(
+        input [25:0] number,
+        output [27:0] outNumber
+    );
+    
+    assign outNumber = number << 2;
+    
+endmodule
+
+module RAM(
+        input reg memRead,
+        input reg memWrite,
+        input reg [31:0] addrIn,
+        input reg [31:0] dataIn,
+        output reg [31:0] dataOut
+    );
+    
+    reg[31:0] memory [0:255];
+
+    always@* begin
+        if(memRead) begin
+            dataOut = memory[addrIn];
+        end
+        if(memWrite) begin 
+            memory[addrIn] = dataIn;
+        end
+    end
+
+endmodule
+
+module RegisterBank(
+        input [4:0] ReadReg1,
+        input [4:0] ReadReg2,
+        input [4:0] WriteReg,
+        input [31:0] writeData,
+        input regWrite,
+        output reg[31:0] ReadData1,
+        output reg[31:0] ReadData2
+    );
+
+    reg[31:0] Bank[0:31];
+    integer i;
+
+    initial begin
+
+        $readmemb("data.txt", Bank);
+    end
+    always @* begin
+
+        ReadData1 = Bank[ReadReg1];
+        ReadData2 = Bank[ReadReg2];
+
+        if(regWrite) begin
+
+            Bank[WriteReg] = writeData;
+        end 
+    end 
+
+endmodule
+
 module programCounter(
         input clk,
         input reg [31:0] counterIn,
@@ -73,4 +133,36 @@ module quesadilla(
         .valueOut(valueOut)
     );
 
+endmodule
+
+
+module testbench();
+        
+    reg [31:0] tbdataOut, tbaddrIn, tbdataIn;
+    reg read;
+    reg write;
+
+    RAM ram(
+        .memRead(read),
+        .memWrite(write),
+        .addrIn(tbaddrIn),
+        .dataIn(tbdataIn),
+        .dataOut(tbdataOut)
+    );
+
+    initial begin
+        #50;
+        read = 0;
+        write = 1;
+        tbaddrIn = 32'd5;
+        tbdataIn = 32'd99;
+
+        #50;
+        read = 1;
+        write = 0;
+        tbaddrIn = 32'd5;
+        
+        $stop;
+
+    end
 endmodule
